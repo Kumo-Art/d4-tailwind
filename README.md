@@ -35,4 +35,29 @@
 - Outer box: 'relative' + a height ('h-64').
 - Image: 'absolute inset-0 w-full h-full object-cover' = out of the flow, stretched to the edges of Outer box.
 - Dark layer: 'absolute inset-0 bg-black/50' (black at 50% opacity).
-- Text:
+- Text: 'relative' , and it comes last in the HTML so its drawn on top.
+
+
+# Responsive Notes
+
+
+## Breakpoints
+- 'md:grid-cols-3' = at 768px and up. A floor, not a range.
+- No prefix = always, even on the smallest screen.
+- sm: 640, md: 768, lg: 1024, xl: 1280.
+
+
+
+## More than columns
+- 'p-4 md:p-6' = less padding on phones, more on bigger screens.
+- 
+
+
+
+
+
+## Media queries
+- '@media (min-width: 768px) { ... }' = only 
+
+
+##
